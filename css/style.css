@@ -1,0 +1,157 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 1em 1em 4em 1em; 
+}
+
+h1,
+h2,
+p,
+.top {
+    color: black;
+    text-decoration: none;
+}
+
+.top:hover {
+    color: red;
+}
+
+h1,
+h2, 
+a {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 4vh;
+    margin-top: 6vh;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+    transition: 400ms;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+b {
+    font-weight: 700;
+}
+
+span {
+    font-size: .90rem;
+}
+
+.headline {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.tooltip-container {
+    position: relative;
+}
+
+.tooltip-trigger {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tooltip-container:hover .tooltip {
+    display: block;
+    opacity: 1;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    left: 80px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 1;
+    transition: opacity 600ms;
+    opacity: 0;
+}
+
+nav {
+    margin: 5vh auto;
+    max-width: 700px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    min-height: 50vh;
+}
+
+.copy-container {
+    max-width: 50%;
+}
+
+.ball-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    min-width: 340px;
+    min-height: 340px;
+}
+
+/*#box {
+    background-color: black;
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}*/
+
+.birbs {
+    min-width: 340px;
+    min-height: 340px;
+    height: 100%;
+    max-width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+hr {
+    max-width: 50%;
+    background-color: orange;
+    height: 5px;
+    border-radius: 5px;
+    margin: 3rem auto;
+    border: 0;
+}
+
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+}
